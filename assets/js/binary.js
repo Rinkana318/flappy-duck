@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v2.0.56/---simulator","cdnUrl":"https://cdn.makecode.com","version":"1.0.0","target":"arcade","targetVersion":"2.0.56","repo":"rinkana318/flappy-duck"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v2.0.56/---simulator","cdnUrl":"https://cdn.makecode.com","version":"1.0.1","target":"arcade","targetVersion":"2.0.56","repo":"rinkana318/flappy-duck"}
 // total=2339967 new=26.26% cached=69.78% other=3.96%
 (function (ectx) {
 'use strict';
@@ -548,7 +548,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P639164(s) {
+function _main___P639175(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1095,13 +1095,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P639164.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/arcade-background-scroll/main.ts","functionName":"<main>","argumentNames":[]}
-_main___P639164.continuations = [  ]
+_main___P639175.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/arcade-background-scroll/main.ts","functionName":"<main>","argumentNames":[]}
+_main___P639175.continuations = [  ]
 
-function _main___P639164_mk(s) {
+function _main___P639175_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P639164, depth: s.depth + 1,
+        parent: s, fn: _main___P639175, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -61407,5 +61407,5 @@ const sprites_BaseSpriteSayRenderer__C617404_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["transparency16___619521","Pipe___638962","Duck___638976","Pipes___639059"])
 
-return _main___P639164
+return _main___P639175
 })
