@@ -1037,5 +1037,5 @@ game.onUpdateInterval(2000, function () {
         ..333333333332..
         ..333333333332..
         `, -50, 0)
-    Pipes.setPosition(Pipes.x, randint(20, 75))
+    Pipes.setPosition(200, randint(20, 75))
 })
